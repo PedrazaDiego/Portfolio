@@ -1,48 +1,92 @@
 {
     "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "description_header": "Hola!",
+      "description": "👋 Me llamo Diego Pedraza. Ingeniero de software bilingüe con más de tres años de experiencia manejando solicitudes y dudas del cliente utilizando la información más actualizada, manejando y desescalado quejas, trabajando en un ambiente de trabajo en equipo contribuyendo y construyendo un ambiente laboral sano. Soy una persona resistente, enfocada y con quien se puede trabajar fácilmente. Estoy buscando incrementar mis conocimientos y habilidades además de mis estudios.",
       "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "about": "Acerca de mi",
+        "projects": "Projectos",
+        "skills": "Habilidades",
+        "experience": "Experiencia"
       }
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
+        "title": "Parasocialr",
+        "startDate": "2022",
+        "description": "This was the culmination of my Bootcamp, and I wanted to experiment a bit more with the knowledge I had. This app features User-auth with JWT tokens, infinite scrolling, and pull-down to refresh, full CRUD functionality in the user model, who can post photos and like others' in the main feed, and Restful API call to the back-end. I also learned about UX libraries such as Material-UI.",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/social/p1.png",
+          "images/portfolio/social/p2.png"
         ],
-        "url": "",
+        "url": "https://github.com/PedrazaDiego/Placeholder",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-react-original",
+            "name": "React"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-redux-original",
+            "name": "Redux"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-django-plain",
+            "name": "Django"
+          },
+          {
+            "class": "devicon-python-plain",
+            "name": "Python3"
+          },
+          {
+            "class": "devicon-materialui-plain",
+            "name": "Material UI"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
+        "title": "Congressional Bill Tracker",
+        "startDate": "2022",
+        "description": "In this group project we decided to build an app so that users can keep track of the latest communications from their representatives, and bills that have been introduced, passed, and are active. We learned to use a state manager such as Redux to be flexible in our design.",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/portfolio/capitol/p1.png",
+          "images/portfolio/capitol/p2.png"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/CaseyStewart1/TheBillHill",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-redux-original",
+            "name": "Redux"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          },
+          {
+            "class": "devicon-postgresql-plain",
+            "name": "PostgreSQL"
+          },
+          {
+            "class": "devicon-sequelize-plain",
+            "name": "Sequelize"
+          }
+        ]
+      },
+      {
+        "title": "Pixel-Inventory",
+        "startDate": "2021",
+        "description": "In my second project, I decided to build an inventory application, with a friendly user interface. I utilized MongoDB as a database, with full CRUD functionality in one of the models. Being more comfortable with JavaScript, React helped me elevate my skills",
+        "images": [
+          "images/portfolio/inventory/p1.png",
+          "images/portfolio/inventory/p2.png"
+        ],
+        "url": "https://github.com/PedrazaDiego/Pixel-Inventory",
         "technologies": [
           {
             "class": "devicon-react-original",
@@ -51,65 +95,83 @@
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "Mongoose"
           }
         ]
       },
       {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
+        "title": "Pac-Smorc",
+        "startDate": "2021",
+        "description": "About two weeks into the bootcamp we were tasked to imitate a game mechanic using HTML, JavaScript, and CSS. It was definitely challenging, being my first time writing code, thankfully GA had provided me with enough resources for me to experiment and develop new skills. ",
         "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
+          "images/portfolio/pacsmorc/p1.png",
+          "images/portfolio/pacsmorc/p2.png"
         ],
-        "url": "https://github.com",
+        "url": "https://github.com/PedrazaDiego/Pac-Smorc",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-html5-plain",
+            "name": "HTML5"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-css3-plain",
+            "name": "CSS3"
           }
         ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
+        "company": "-General Assembly",
+        "title": "Software Engineer Immersive",
+        "years": "11/2021 - 02/2022",
         "mainTech": [
-          "Angular 8/9/10"
+          "JavaScript"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
+          "HTML5",
+          "CSS3",
+          "React",
+          "Redux",
+          "MongoDB",
+          "Mongoose",
+          "Express.js",
+          "PostgreSQL",
+          "Sequelize",
+          "Vue.js",
+          "Python3",
+          "Django"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
+        "company": "-TTEC",
+        "title": "Orientation and Training Specialist",
+        "years": "03/2020 - 05/2021",
         "mainTech": [
-          "Angular 7/8"
+          ""
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
+        ]
+      },
+      {
+        "company": "-Concentrix",
+        "title": "Macy's Customer Service",
+        "years": "01/2017 - 11/2019",
+        "mainTech": [
+          ""
+        ],
+        "technologies": [
         ]
       }
     ]
